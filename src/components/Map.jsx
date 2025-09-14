@@ -9,7 +9,8 @@ const bounds = [[0, 0], [1000, 1000]];
 function Map() {
   return (
     <>
-    <h1 style={{ textAlign: "center" }}>HelpIN Map📍</h1>
+    {/*needs fixing*/}
+    <h1 style={{ textAlign: "center"}}>HelpIN Map📍</h1>
     <div style={{ height: "100vh", width: "100vw" }}>
       <MapContainer
         center={[500, 500]} 
