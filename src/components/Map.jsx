@@ -21,7 +21,13 @@ function Map() {
       >
         <ImageOverlay url={mapbg} bounds={bounds} />
         <Marker position={[500, 465]}>
-          <Popup>HI🙋 I Need Help 🚨 </Popup>
+          <Popup>HI🙋 I Need Help🚨 </Popup>
+        </Marker>
+        <Marker position={[632,280]}>
+          <Popup>HI🙋 I Need Help🚨</Popup>
+        </Marker>
+        <Marker position={[607,180]}>
+          <Popup>HI🙋 I Need Help🚨</Popup>
         </Marker>
       </MapContainer>
     </div>
