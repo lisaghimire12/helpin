@@ -3,4 +3,5 @@ from . models import *
 
 class HelpRequestSerializer(serializers.ModelSerializer):
     class Meta:
-        model = HelpRequestfielsa = '__all__'
+        model = HelpRequest
+        fields = '__all__'
