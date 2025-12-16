@@ -60,6 +60,7 @@ function Map() {
 
   return (
     <>
+    
       <h1 style={{ textAlign: "center" }}>HelpIN Map📍</h1>
       <div style={{ height: "100vh", width: "100vw" }}>
         <MapContainer
@@ -79,7 +80,7 @@ function Map() {
               <Popup>
                 <b>{req.title}</b>
                 <p>{req.description}</p>
-                {req.resolved ? "✅ Resolved" : "⚠️ Pending"}
+                {req.resolved ? " Resolved" : "~Pending"}
                 <button
                   style={{
                     marginTop: "5px",
